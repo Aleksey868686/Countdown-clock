@@ -10,11 +10,13 @@
   <h1 class="countdown-title">Countdown Clock</h1>
 <section class="countdown">
   <div class="countdown-number">
-    <p class="minutes countdown-time"></p>
+    <input id="minute" class="minutes countdown-time" value="00" type="number" min="00" max="60" step="1">
+    <!-- <p class="minutes countdown-time"></p> -->
     <p class="countdown-text">Minutes</p>
   </div>
   <div class="countdown-number">
-    <p class="seconds countdown-time"></p>
+    <input id="second" class="seconds countdown-time" value="00" type="number" min="00" max="60" step="1">
+    <!-- <p class="seconds countdown-time"></p> -->
     <p class="countdown-text">Seconds</p>
   </div>
 </section>
@@ -29,5 +31,6 @@
 <div class="message">
   
 </div>  
+<script src="countdown.js"></script>
 </body>
 </html>
